@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "siteTitle": "Dr. Tooba Iqbal (MBBS, MCPS) | Gynecologist & Obstetrician in Multan & Khangarh",
+    "siteDescription": "Expert gynecological care, pregnancy & antenatal checkups, PCOS & hormonal treatment, and fertility consultations with Dr. Tooba Iqbal in Multan and Khangarh.",
+    "localeLabel": "English",
+    "switchLocaleLabel": "اردو میں پڑھیں",
+    "switchLocaleShort": "اردو"
+  },
+  "nav": {
+    "skipToContent": "Skip to main content",
+    "home": "Home",
+    "about": "About Doctor",
+    "services": "Services",
+    "contact": "Clinics & Timings",
+    "blog": "Health Tips",
+    "privacy": "Privacy Policy",
+    "disclaimer": "Medical Disclaimer",
+    "bookAppointment": "Book Appointment",
+    "whatsappCta": "Chat on WhatsApp",
+    "callClinic": "Call Clinic"
+  },
+  "hero": {
+    "badge": "MBBS, MCPS • Consultant Gynecologist & Obstetrician",
+    "heading": "Expert Gynecological Care & Women's Health in Multan & Khangarh",
+    "subheading": "Dedicated care for pregnancy, reproductive health, hormonal balance, and specialized treatments.",
+    "primaryCta": "Book Appointment",
+    "secondaryCta": "Chat on WhatsApp",
+    "imageAlt": "Illustration of Dr. Tooba Iqbal (MBBS, MCPS), Consultant Gynecologist and Obstetrician in Multan and Khangarh",
+    "trustPoints": {
+      "confidential": "100% Confidential & Respectful Consultations",
+      "locations": "2 Convenient Clinics: Multan (Tue–Sat) & Khangarh (Mon)",
+      "evidenceBased": "Evidence-Based Antenatal, PCOS & Fertility Care"
+    }
+  },
+  "quickInfo": {
+    "sectionLabel": "Clinic Locations & Direct Contact",
+    "callNow": "Call Clinic",
+    "whatsappNow": "WhatsApp",
+    "viewMap": "View Timings & Map"
+  },
+  "coreFocus": {
+    "eyebrow": "Specialized Women's Healthcare",
+    "heading": "Core Health Focus Areas",
+    "subheading": "Comprehensive clinical support across every stage of a woman's life—from adolescent hormonal care to safe motherhood and preventive screenings after 30.",
+    "exploreService": "View Clinical Details",
+    "readGuide": "Read Patient Guide",
+    "viewAllServices": "Explore All Clinical Services"
+  },
+  "aboutTeaser": {
+    "eyebrow": "Meet Your Specialist",
+    "heading": "Dr. Tooba Iqbal (MBBS, MCPS)",
+    "subtitle": "Consultant Gynecologist & Obstetrician — Multan & Khangarh",
+    "readMoreCta": "View Full Credentials & Philosophy",
+    "bookWithDoctor": "Schedule a Consultation"
+  },
+  "services": {
+    "pageEyebrow": "Clinical Specialties",
+    "pageHeading": "Gynecology, Maternity & Hormonal Care Services",
+    "pageSubheading": "Every consultation is conducted in a calm, respectful, and private setting with clear explanations tailored to your health needs.",
+    "whatItIs": "What It Is",
+    "whenToSeeDoctor": "When to See a Doctor",
+    "whatToExpect": "What to Expect at Your Visit",
+    "keyHighlights": "Clinical Services Included",
+    "serviceFaqsHeading": "Frequently Asked Questions",
+    "bookThisService": "Book Appointment for This Service",
+    "askOnWhatsapp": "Ask on WhatsApp",
+    "viewDetailedPage": "Open Full Service Guide",
+    "backToServices": "Back to All Services"
+  },
+  "about": {
+    "pageEyebrow": "About the Doctor",
+    "pageHeading": "Dr. Tooba Iqbal (MBBS, MCPS)",
+    "pageSubheading": "Consultant Gynecologist & Obstetrician serving women and families in Multan and Khangarh, Southern Punjab.",
+    "philosophyHeading": "Clinical Philosophy",
+    "biographyHeading": "Clinical Background & Patient Care Approach",
+    "qualificationsHeading": "Academic Qualifications & Specialist Training",
+    "membershipsHeading": "Registrations & Professional Memberships",
+    "pmdcBadgeLabel": "PMDC Verification Status",
+    "practiceLocationsHeading": "Where Dr. Tooba Iqbal Practices"
+  },
+  "clinics": {
+    "eyebrow": "Practice Locations & Timings",
+    "heading": "Visit Our Clinics in Multan & Khangarh",
+    "subheading": "Please verify the clinic day before traveling. Call ahead or book online to confirm your consultation slot.",
+    "addressLabel": "Clinic Address",
+    "timingsLabel": "Consultation Days & Hours",
+    "phoneLabel": "Direct Appointment Phone",
+    "callButton": "Call Now",
+    "whatsappButton": "WhatsApp Clinic",
+    "directionsButton": "Open in Google Maps",
+    "bookAtLocation": "Book at This Clinic"
+  },
+  "testimonials": {
+    "eyebrow": "Patient Experiences",
+    "heading": "Consent-Verified Patient Reflections",
+    "subheading": "Published strictly with documented patient consent and anonymized to protect patient confidentiality."
+  },
+  "faq": {
+    "eyebrow": "Common Patient Questions",
+    "heading": "Frequently Asked Questions",
+    "subheading": "Clear answers to common questions about clinic timings, early pregnancy scans, PCOS care, and booking privacy."
+  },
+  "blog": {
+    "eyebrow": "Patient Education & Health Guides",
+    "heading": "Women's Health Tips & Clinical Articles",
+    "subheading": "Evidence-based educational guides written and medically reviewed by Dr. Tooba Iqbal (MBBS, MCPS).",
+    "authorPrefix": "Written & Medically Reviewed by",
+    "lastReviewedLabel": "Last Medically Reviewed",
+    "readingTimeLabel": "min read",
+    "draftApprovalBadge": "[DRAFT — REQUIRES CLIENT MEDICAL APPROVAL]",
+    "educationalBannerTitle": "Educational Information Only — Not Personal Medical Advice",
+    "readArticle": "Read Full Article",
+    "backToBlog": "Back to All Health Tips",
+    "bookCtaHeading": "Have Questions About Your Symptoms?",
+    "bookCtaBody": "Educational articles do not replace an in-person checkup. Schedule a confidential consultation at our Multan or Khangarh clinic."
+  },
+  "bookingForm": {
+    "eyebrow": "Online Appointment Request",
+    "heading": "Request a Clinic Appointment",
+    "subheading": "Fill in your basic contact details below. You can also send your booking summary directly on WhatsApp after submitting.",
+    "fullNameLabel": "Patient Full Name",
+    "fullNamePlaceholder": "e.g., Ayesha Bibi / عائشہ بی بی",
+    "phoneLabel": "Mobile Phone Number (Pakistan)",
+    "phonePlaceholder": "0310-1777649 or +923101777649",
+    "phoneHelp": "We will call or message this number to confirm your appointment time.",
+    "locationLabel": "Select Clinic Location",
+    "locationMultan": "Multan Clinic — Doctors Hospital / Smile Clinic (Tue–Sat)",
+    "locationKhangarh": "Khangarh Clinic — Awan Surgical Centre (Monday, 2–6 PM)",
+    "preferredDateLabel": "Preferred Appointment Date",
+    "reasonLabel": "Brief Reason for Visit (Optional, max 300 chars)",
+    "reasonPlaceholder": "e.g., Routine antenatal checkup, 8-week ultrasound scan, or PCOS consultation",
+    "privacyWarningTitle": "Privacy Notice:",
+    "privacyWarningBody": "Please state only a brief reason (e.g., 'Routine antenatal checkup' or 'PCOS consultation'). Do NOT include sensitive or detailed medical history.",
+    "turnstileLabel": "Security Verification",
+    "submitButton": "Submit Appointment Request",
+    "submittingButton": "Submitting Request...",
+    "directWhatsappAlternative": "Prefer WhatsApp? Tap here to message the clinic directly",
+    "successTitle": "Appointment Request Received",
+    "successBody": "Thank you! Your request has been recorded. For immediate confirmation with our reception desk, tap the button below to send your booking summary on WhatsApp.",
+    "whatsappSummaryButton": "Send Booking Summary on WhatsApp",
+    "bookAnotherButton": "Submit Another Request",
+    "errorGeneric": "We could not process your request right now. Please check your inputs or contact the clinic directly on WhatsApp (+92 310 1777649).",
+    "errorRateLimit": "Too many booking attempts from your connection. Please wait 10 minutes or contact us directly via WhatsApp or phone."
+  },
+  "legal": {
+    "privacyTitle": "Privacy Policy & Patient Data Protection",
+    "privacySubtitle": "How we protect your confidentiality through strict data minimization, encryption, and 90-day automatic retention limits.",
+    "disclaimerTitle": "Medical & Emergency Disclaimer",
+    "disclaimerSubtitle": "Important information regarding the educational scope of this website and emergency medical care."
+  },
+  "footer": {
+    "emergencyTitle": "Emergency Medical Notice",
+    "quickLinksHeading": "Quick Navigation",
+    "clinicsHeading": "Our Clinic Locations",
+    "connectHeading": "Official Social Channels",
+    "followInstagram": "Instagram (@dr.tooba_gynecologist)",
+    "followFacebook": "Facebook (/drtoobgynecologist)",
+    "copyright": "Dr. Tooba Iqbal (MBBS, MCPS). All rights reserved.",
+    "floatingWhatsappLabel": "WhatsApp Clinic"
+  }
+}

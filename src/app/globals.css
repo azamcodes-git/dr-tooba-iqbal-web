@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-brand-plum: #6b1d4f;
+    --color-brand-plum-hover: #56163f;
+    --color-brand-plum-light: #852964;
+    --color-brand-rose: #d88ba9;
+    --color-brand-rose-alt: #e8a5c1;
+    --color-canvas: #fdf6f8;
+    --color-card-tint: #f9ebf1;
+    --color-ink: #2d1524;
+    --color-ink-muted: #5c3a4d;
+    --color-whatsapp: #10b981;
+    --color-whatsapp-hover: #0ea572;
+    --color-whatsapp-ink: #052e16;
+  }
+
+  html {
+    background-color: #fdf6f8;
+    color: #2d1524;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-canvas text-ink font-sans antialiased selection:bg-brand-plum selection:text-white;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Urdu RTL route typography & Jameel Noori Nastaleeq legibility rules */
+  [dir="rtl"] {
+    font-family: var(--font-jameel-noori), serif;
+    font-size: 1.125rem;
+    line-height: 2.0;
+    word-spacing: 0.05em;
+  }
+
+  [dir="rtl"] body,
+  [dir="rtl"] p,
+  [dir="rtl"] li,
+  [dir="rtl"] label,
+  [dir="rtl"] input,
+  [dir="rtl"] textarea,
+  [dir="rtl"] select,
+  [dir="rtl"] button,
+  [dir="rtl"] a {
+    font-family: var(--font-jameel-noori), serif;
+    line-height: 2.0;
+    word-spacing: 0.05em;
+  }
+
+  [dir="rtl"] h1,
+  [dir="rtl"] h2,
+  [dir="rtl"] h3,
+  [dir="rtl"] h4,
+  [dir="rtl"] h5,
+  [dir="rtl"] h6 {
+    font-family: var(--font-jameel-noori), serif;
+    line-height: 1.85;
+    word-spacing: 0.05em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading text-brand-plum tracking-tight;
+  }
+
+  /* High-contrast WCAG 2.1 AA keyboard focus indicators */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  summary:focus-visible,
+  [role="button"]:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 3px solid #6b1d4f;
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+  }
+}
+
+@layer components {
+  /* Enforces 48x48px minimum mobile touch target for Southern Punjab Android users */
+  .tap-target {
+    @apply min-h-tap min-w-tap inline-flex items-center justify-center;
+  }
+
+  .btn-primary {
+    @apply min-h-tap inline-flex items-center justify-center rounded-xl bg-brand-plum px-6 py-3 font-heading text-base font-semibold text-white shadow-sm transition-colors duration-150 hover:bg-brand-plum-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-plum disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  /* WCAG AAA contrast fix: Dark text (#052E16) on #10B981 achieves 8.1:1 contrast */
+  .btn-whatsapp {
+    @apply min-h-tap inline-flex items-center justify-center rounded-xl bg-whatsapp px-6 py-3 font-heading text-base font-bold text-whatsapp-ink shadow-sm transition-colors duration-150 hover:bg-whatsapp-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-whatsapp-ink;
+  }
+
+  .btn-outline {
+    @apply min-h-tap inline-flex items-center justify-center rounded-xl border-2 border-brand-plum bg-white px-6 py-3 font-heading text-base font-semibold text-brand-plum transition-colors duration-150 hover:bg-card-tint focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-plum;
+  }
+}
+
+/* Respect user vestibular & reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  html {
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "dr-tooba-iqbal-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official bilingual (English/Urdu) healthcare & appointment portal for Dr. Tooba Iqbal (MBBS, MCPS), Gynecologist & Obstetrician in Multan and Khangarh, Pakistan.",
+  "engines": {
+    "node": ">=20.18.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate deploy",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "@upstash/ratelimit": "^2.0.4",
+    "@upstash/redis": "^1.34.3",
+    "clsx": "^2.1.1",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.460.0",
+    "next": "14.2.18",
+    "next-mdx-remote": "^5.0.0",
+    "nodemailer": "^6.9.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "resend": "^4.0.1",
+    "tailwind-merge": "^2.5.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^20.17.6",
+    "@types/nodemailer": "^6.4.16",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.18",
+    "postcss": "^8.4.49",
+    "prisma": "^5.22.0",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}

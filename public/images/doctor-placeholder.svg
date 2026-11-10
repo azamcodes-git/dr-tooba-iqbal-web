@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 620" width="560" height="620" role="img" aria-labelledby="doctorIllustrationTitle doctorIllustrationDesc">
+  <title id="doctorIllustrationTitle">Dr. Tooba Iqbal — Consultant Gynecologist &amp; Obstetrician</title>
+  <desc id="doctorIllustrationDesc">Warm, respectful clinical illustration representing Dr. Tooba Iqbal (MBBS, MCPS), Women's Health and Maternity Specialist in Multan and Khangarh.</desc>
+
+  <defs>
+    <linearGradient id="bgCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9EBF1" />
+      <stop offset="100%" stop-color="#FDF6F8" />
+    </linearGradient>
+    <linearGradient id="plumAccentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#852964" />
+      <stop offset="100%" stop-color="#6B1D4F" />
+    </linearGradient>
+    <linearGradient id="coatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F9EBF1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Soft Rounded Background Frame -->
+  <rect x="20" y="20" width="520" height="580" rx="36" fill="url(#bgCardGrad)" stroke="#D88BA9" stroke-width="2" />
+
+  <!-- Decorative Soft Rose Halo Circles -->
+  <circle cx="280" cy="240" r="165" fill="#FDF6F8" stroke="#E8A5C1" stroke-width="1.5" stroke-dasharray="6 6" />
+  <circle cx="280" cy="240" r="130" fill="#F9EBF1" />
+
+  <!-- Subtle Botanical / Maternal Care Leaves (Left & Right) -->
+  <path d="M98 370 C75 320, 95 260, 130 235 C120 285, 118 335, 98 370 Z" fill="#E8A5C1" opacity="0.45" />
+  <path d="M462 370 C485 320, 465 260, 430 235 C440 285, 442 335, 462 370 Z" fill="#E8A5C1" opacity="0.45" />
+
+  <!-- Medical Cross Emblem Badge (Top Right) -->
+  <g transform="translate(415, 65)">
+    <rect x="0" y="0" width="68" height="68" rx="20" fill="#FFFFFF" stroke="#D88BA9" stroke-width="2" />
+    <rect x="28" y="16" width="12" height="36" rx="4" fill="#6B1D4F" />
+    <rect x="16" y="28" width="36" height="12" rx="4" fill="#6B1D4F" />
+  </g>
+
+  <!-- Heart & Care Pulse Badge (Top Left) -->
+  <g transform="translate(75, 65)">
+    <rect x="0" y="0" width="68" height="68" rx="20" fill="#FFFFFF" stroke="#D88BA9" stroke-width="2" />
+    <path d="M34 50 C34 50, 16 38, 16 25 C16 19, 21 15, 26.5 15 C30 15, 32.8 17, 34 19.5 C35.2 17, 38 15, 41.5 15 C47 15, 52 19, 52 25 C52 38, 34 50, 34 50 Z" fill="none" stroke="#6B1D4F" stroke-width="2.5" stroke-linejoin="round" />
+    <path d="M22 29 L29 29 L32 23 L36 35 L39 29 L46 29" fill="none" stroke="#6B1D4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Respectful Female Physician Silhouette with Hijab/Headscarf & Lab Coat -->
+  <g transform="translate(0, 10)">
+    <!-- Shoulders & Clinical White Coat -->
+    <path d="M135 475 C140 375, 195 335, 280 335 C365 335, 420 375, 425 475 Z" fill="url(#coatGrad)" stroke="#6B1D4F" stroke-width="3" stroke-linejoin="round" />
+
+    <!-- Inner Plum Attire & Draped Hijab/Scarf -->
+    <path d="M225 337 L280 420 L335 337 Z" fill="url(#plumAccentGrad)" />
+    <path d="M198 220 C198 152, 232 120, 280 120 C328 120, 362 152, 362 220 C362 285, 345 338, 322 356 C300 370, 260 370, 238 356 C215 338, 198 285, 198 220 Z" fill="url(#plumAccentGrad)" />
+
+    <!-- Face Silhouette (Warm Minimalist Portrait) -->
+    <path d="M232 215 C232 176, 252 154, 280 154 C308 154, 328 176, 328 215 C328 258, 307 288, 280 288 C253 288, 232 258, 232 215 Z" fill="#FDF6F8" stroke="#6B1D4F" stroke-width="2.5" />
+
+    <!-- Gentle Expression Lines -->
+    <path d="M254 210 Q262 204 270 210" fill="none" stroke="#2D1524" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M290 210 Q298 204 306 210" fill="none" stroke="#2D1524" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M266 248 Q280 258 294 248" fill="none" stroke="#6B1D4F" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Coat Lapels -->
+    <path d="M215 344 L262 435 L280 420" fill="none" stroke="#6B1D4F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M345 344 L298 435 L280 420" fill="none" stroke="#6B1D4F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Clinical Stethoscope -->
+    <path d="M210 355 C195 400, 210 442, 245 450" fill="none" stroke="#2D1524" stroke-width="4" stroke-linecap="round" />
+    <path d="M350 355 C365 400, 355 430, 332 442" fill="none" stroke="#2D1524" stroke-width="4" stroke-linecap="round" />
+    <circle cx="326" cy="446" r="13" fill="#FDF6F8" stroke="#6B1D4F" stroke-width="3.5" />
+    <circle cx="326" cy="446" r="5" fill="#6B1D4F" />
+    <circle cx="248" cy="450" r="6" fill="#D88BA9" stroke="#2D1524" stroke-width="2" />
+  </g>
+
+  <!-- Bottom Credentials Banner Card -->
+  <g transform="translate(60, 495)">
+    <rect x="0" y="0" width="440" height="78" rx="18" fill="#FFFFFF" stroke="#D88BA9" stroke-width="2" />
+    <text x="220" y="34" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#6B1D4F">
+      Dr. Tooba Iqbal (MBBS, MCPS)
+    </text>
+    <text x="220" y="58" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#5C3A4D">
+      Gynecologist &amp; Obstetrician • Multan &amp; Khangarh
+    </text>
+  </g>
+</svg>

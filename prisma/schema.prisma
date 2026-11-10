@@ -1,0 +1,45 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ClinicLocation {
+  multan
+  khangarh
+}
+
+enum AppointmentStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+}
+
+/// Minimized, encrypted appointment request model.
+/// Only active when ENABLE_DB_STORAGE="true".
+/// Automatically purged after 90 days via `/api/cron/retention`.
+model AppointmentRequest {
+  id              String            @id @default(cuid())
+  fullName        String            @db.VarChar(80)
+  /// AES-256-GCM encrypted E.164 phone payload formatted as `ivHex:authTagHex:ciphertextHex`
+  encryptedPhone  String            @db.Text
+  /// Deterministic HMAC-SHA256 blind index of normalized E.164 phone for lookup without decryption
+  phoneBlindIndex String            @db.VarChar(64)
+  location        ClinicLocation
+  preferredDate   DateTime          @db.Date
+  /// Optional short visit reason (strictly capped at 300 chars; no detailed medical history)
+  reason          String?           @db.VarChar(300)
+  locale          String            @default("en") @db.VarChar(5)
+  status          AppointmentStatus @default(PENDING)
+  createdAt       DateTime          @default(now())
+  expiresAt       DateTime
+
+  @@index([createdAt])
+  @@index([expiresAt])
+  @@index([phoneBlindIndex])
+  @@index([location, preferredDate])
+  @@map("appointment_requests")
+}

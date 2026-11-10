@@ -1,0 +1,9 @@
+# RFC 9116 Security Policy Disclosure — Dr. Tooba Iqbal Clinic Portal
+# [CONFIRM WITH CLIENT — Verify final production domain and security contact email before launch]
+
+Contact: mailto:security@drtoobaiqbal.com
+Contact: https://drtoobaiqbal.com/en/contact
+Expires: 2027-11-06T23:59:59.000Z
+Preferred-Languages: en, ur
+Canonical: https://drtoobaiqbal.com/.well-known/security.txt
+Policy: https://drtoobaiqbal.com/en/privacy
